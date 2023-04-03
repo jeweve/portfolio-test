@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>컨버스 공식 온라인 스토어 습작</title>
+    <!-- BX -->
+    <link rel="stylesheet" href="css/jquery.bxslider.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- fontawesome CDN -->
+    <script src="https://kit.fontawesome.com/acc6245ef7.js" crossorigin="anonymous"></script>
+    <!-- style -->
+    <link rel="stylesheet" href="style.css" rel="stylesheet" type="text/css">
+    <!-- js -->
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="headerbox">
+            <div class="left">
+                <p><img src="converse_images/korea.png" alt="korea"></p>
+                <p>KR</p>
+                <p>한국어</p>
+            </div>
+            <div class="bxSlider">
+                    <div>
+                    <b>NOTICE</b>
+                    <p>로그인이 어려우실 경우 FAQ를 참조해주세요.</p>
+                    </div>
+                    <div>
+                    <b>EVENT</b>
+                    <p>카카오 1초 가입 시 최대 15,000원 쿠폰 증정</p>
+                    </div>
+                    <div>
+                    <b>EVENT</b>
+                    <p>카카오페이머니로 7만원이상 결제 시 5천원 즉시할인</p>
+                    </div>
+            </div>
+        </div>
+        <script>
+            // bxSlider
+            $(".bxSlider").bxSlider({
+              auto: true,
+              autoControls: false,
+              moveSlides: 1,
+              stopAutoOnClick: true,
+              pager: false,
+              minSlides: 1,
+              maxSlides: 1,
+              slideWidth: 700,
+            });
+        </script>
+    </header>
+    <div id="banner"></div>
+
+    <nav id="navbar">
+    <div class="navbox">
+        <div class="nav_left">
+            <a href="#"><img src="converse_images/logo_w.png" alt="logo" class="logo"></a>
+            <div class="nav_left_menu">
+            <a href="#" id="shoe">신발</a>
+            <a href="#" id="clothes">의류</a>
+            <a href="#" id="kids">아동</a>
+            <a href="#">런칭캘린더</a>
+            <a href="#">SALE</a>
+            </div>
+        </div>
+        
+        
+        
+        <div class="nav_right">
+            <div class="nav_right_menu">
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+            <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i><div class="blue">0</div></a>
+            <a href="#"><i class="fa-regular fa-heart"></i></a>
+            <a href="#"><i class="fa-solid fa-circle-question"></i></a>
+            </div>
+            <form action="">
+                <input type="text" placeholder="검색" style="border: none; background: transparent;" id="inputbox">
+                <a href="#"><i class="fa-solid fa-magnifying-glass fa-flip-horizontal"></i></a>
+            </form>
+        </div>
+    </div>
+    </nav>
+
+    <section>
+        <div class="sectionbox">
+        <div class="headerleft">
+            <img src="converse_images/header.gif" alt="header">
+        </div>
+        <div class="headerright">
+            <img src="converse_images/header2.jpg" alt="header">
+        </div>
+        </div>
+
+
+        <article>
+            <div class="promotion">
+                <a href="#"><img src="converse_images/headersub1.jpg" alt="sub1"></a>
+                <a href="#"><img src="converse_images/headersub2.jpg" alt="sub2" style="border-right: 1px solid #fff;"></a>
+                <a href="#"><img src="converse_images/headersub3.jpg" alt="sub3"></a>
+                <a href="#"><img src="converse_images/headersub4.jpg" alt="sub4" style="border-left: 1px solid #fff;"></a>
+            </div>
+        </article>
+
+        <article class="article2">
+            <div class="coupon">
+                <iframe src="img.html" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </article>
+    </section>
+
+    <div class="container1">
+        <article class="article3">
+            <img src="converse_images/recommendations_title.jpg" alt="title1">
+            <div>
+                <ul class="first_img">
+                    <li>
+                        <img src="converse_images/bar1.jpg" alt="bar1">
+                    </li>
+                    <li>
+                        <a href="#"><img src="converse_images/recommendations1.jpg" alt="img1"></a>
+                    </li>
+                    <li>
+                        <img src="converse_images/bar2.jpg" alt="바2">
+                    </li>
+                    <li>
+                        <a href="#"><img src="converse_images/recommendations2.jpg" alt="img2"></a>
+                    </li>
+                    <li>
+                        <img src="converse_images/bar3.jpg" alt="bar3">
+                    </li>
+                    <li>
+                        <a href="#"><img src="converse_images/recommendations3.jpg" alt="img3"></a>
+                    </li>
+                    <li>
+                        <img src="converse_images/bar4.jpg" alt="bar4">
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </div>
+
+    <div class="container2">
+        <article class="article4" id="article4">
+            <div><img src="converse_images/1STEADY/article4_title.jpg" alt="steady1"></div>
+            <div class="anchorTab">
+                <div class="tabone">
+                    <ul class="tabone_ul">
+                        <li><a href="#article4"><img src="converse_images/1STEADY/chucktaylorallstar.jpg" alt="btn"></a></li>
+                        <li><a href="#article5"><img src="converse_images/1STEADY/chuck70.jpg" alt="btn"></a></li>
+                        <li><a href="#article6"><img src="converse_images/1STEADY/hike.jpg" alt="btn"></a></li>
+                        <li><a href="#article7"><img src="converse_images/1STEADY/move.jpg" alt="btn"></a></li>
+                        <li><a href="#article8"><img src="converse_images/1STEADY/lift.jpg" alt="btn"></a></li>
+                    </ul>
+                </div>
+                <div class="tabtwo">
+                    <ul class="tabtwo_ul">
+                        <li><a href="#article9"><img src="converse_images/1STEADY/mule.jpg" alt="btn"></a></li>
+                        <li><a href="#article10"><img src="converse_images/1STEADY/com_collection.jpg" alt="btn"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <img src="converse_images/1STEADY/chucktaylor_ex.jpg" alt="explanation">
+            </div>
+
+            <div class="wrapper">
+                <div class="wrapper_left">
+                    <img src="converse_images/1STEADY/chucktaylor_model.jpg" alt="man">
+                </div>
+                <div class="wrapper_right">
+                    <div id="box1">
+                        <img src="converse_images/1STEADY/ch_1.jpg" alt="img"
+                        onmouseover="this.src='converse_images/1STEADY/ch_2.jpg'" 
+                        onmouseout="this.src='converse_images/1STEADY/ch_1.jpg'">
+                        <p>척테일러 올스타 클래식 블랙<br><span class="span1">65,000원</span>58,500원<span class="span2">10%</span></p>
+                    </div>
+		            <div id="box2">
+                        <img src="converse_images/1STEADY/ch_3.jpg" alt="img"
+                        onmouseover="this.src='converse_images/1STEADY/ch_4.jpg'" 
+                        onmouseout="this.src='converse_images/1STEADY/ch_3.jpg'">
+                        <p>척테일러 올스타 클래식 블랙<br><span class="span1">59,000원</span>53,100원<sapn class="span2">10%</sapn></p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+		            <div id="box3">
+                        <img src="converse_images/1STEADY/ch_5.jpg" alt="img"
+                        onmouseover="this.src='converse_images/1STEADY/ch_6.jpg'" 
+                        onmouseout="this.src='converse_images/1STEADY/ch_5.jpg'">
+                        <p>척테일러 올스타 클래식 화이트<br><span class="span1">65,000원</span>58,500원<sapn class="span2">10%</sapn></p>
+                    </div>
+		            <div id="box4">
+                        <img src="converse_images/1STEADY/ch_7.jpg" alt="img"
+                        onmouseover="this.src='converse_images/1STEADY/ch_8.jpg'" 
+                        onmouseout="this.src='converse_images/1STEADY/ch_7.jpg'">
+                        <p>척테일러 올스타 클래식 화이트<br><span class="span1">59,000원</span>53,100원<sapn class="span2">10%</sapn></p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+	            </div>
+            </div>
+            <div class="more"><img src="converse_images/1STEADY/more.jpg" alt="more" class="morebtn"></div>
+            </div>
+        </article>
+
+        <article class="article5" id="article5">
+            <div class="anchorTab">
+                <div class="tabone">
+                    <ul class="tabone_ul">
+                        <li><a href="#article4"><img src="converse_images/2CHUCK70/allstar.jpg" alt="btn"></a></li>
+                        <li><a href="#article5"><img src="converse_images/2CHUCK70/chuck70.jpg" alt="btn"></a></li>
+                        <li><a href="#article6"><img src="converse_images/1STEADY/hike.jpg" alt="btn"></a></li>
+                        <li><a href="#article7"><img src="converse_images/1STEADY/move.jpg" alt="btn"></a></li>
+                        <li><a href="#article8"><img src="converse_images/1STEADY/lift.jpg" alt="btn"></a></li>
+                    </ul>
+                </div>
+                <div class="tabtwo">
+                    <ul class="tabtwo_ul">
+                        <li><a href="#article9"><img src="converse_images/1STEADY/mule.jpg" alt="btn"></a></li>
+                        <li><a href="#article10"><img src="converse_images/1STEADY/com_collection.jpg" alt="btn"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="explanation">
+                <img src="converse_images/2CHUCK70/chuck70_ex.jpg" alt="explanation">
+            </div>
+
+            <div class="wrapper">
+                <div class="wrapper_left">
+                    <img src="converse_images/2CHUCK70/man2.jpg" alt="man">
+                </div>
+                <div class="wrapper_right">
+                    <div id="box1">
+                        <img src="converse_images/2CHUCK70/img1.jpg" alt="img"
+                        onmouseover="this.src='converse_images/2CHUCK70/img2.jpg'" 
+                        onmouseout="this.src='converse_images/2CHUCK70/img1.jpg'">
+                        <p>척 70 클래식 블랙<br><span class="span1">99,000원</span>89,100원<span class="span2">10%</span></p>
+                    </div>
+		            <div id="box2">
+                        <img src="converse_images/2CHUCK70/img3.jpg" alt="img"
+                        onmouseover="this.src='converse_images/2CHUCK70/img4.jpg'" 
+                        onmouseout="this.src='converse_images/2CHUCK70/img3.jpg'">
+                        <p>척 70 클래식 파치먼트<br><span class="span1">99,000원</span>89,100원<sapn class="span2">10%</sapn></p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+		            <div id="box3">
+                        <img src="converse_images/2CHUCK70/img5.jpg" alt="img"
+                        onmouseover="this.src='converse_images/2CHUCK70/img6.jpg'" 
+                        onmouseout="this.src='converse_images/2CHUCK70/img5.jpg'">
+                        <p>척 70 빈티지 캔버스 화이트<br><span class="span1">99,000원</span>89,100원<sapn class="span2">10%</sapn></p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+		            <div id="box4">
+                        <img src="converse_images/2CHUCK70/img7.jpg" alt="img"
+                        onmouseover="this.src='converse_images/2CHUCK70/img8.jpg'" 
+                        onmouseout="this.src='converse_images/2CHUCK70/img7.jpg'">
+                        <p>척 70 클래식 블랙<br><span class="span1">95,000원</span>85,500원<sapn class="span2">10%</sapn></p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+	            </div>
+            </div>
+            <div class="more"><img src="converse_images/1STEADY/more.jpg" alt="more" class="morebtn"></div>
+            </div>
+        </article>
+
+        <article class="article6" id="article6">
+            <div class="anchorTab">
+                <div class="tabone">
+                    <ul class="tabone_ul">
+                        <li><a href="#article4"><img src="converse_images/2CHUCK70/allstar.jpg" alt="btn"></a></li>
+                        <li><a href="#article5"><img src="converse_images/3RUNSTARHIKE/chuck70.jpg" alt="btn"></a></li>
+                        <li><a href="#article6"><img src="converse_images/3RUNSTARHIKE/hike.jpg" alt="btn"></a></li>
+                        <li><a href="#article7"><img src="converse_images/1STEADY/move.jpg" alt="btn"></a></li>
+                        <li><a href="#article8"><img src="converse_images/1STEADY/lift.jpg" alt="btn"></a></li>
+                    </ul>
+                </div>
+                <div class="tabtwo">
+                    <ul class="tabtwo_ul">
+                        <li><a href="#article9"><img src="converse_images/1STEADY/mule.jpg" alt="btn"></a></li>
+                        <li><a href="#article10"><img src="converse_images/1STEADY/com_collection.jpg" alt="btn"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="explanation">
+                <img src="converse_images/3RUNSTARHIKE/RUNSTARHIKE_ex.jpg" alt="explanation">
+            </div>
+
+            <div class="wrapper">
+                <div class="wrapper_left">
+                    <img src="converse_images/3RUNSTARHIKE/woman_model.jpg" alt="woman">
+                </div>
+                <div class="wrapper_right">
+                    <div id="box1">
+                        <img src="converse_images/3RUNSTARHIKE/img1.jpg" alt="img"
+                        onmouseover="this.src='converse_images/3RUNSTARHIKE/img2.jpg'" 
+                        onmouseout="this.src='converse_images/3RUNSTARHIKE/img1.jpg'">
+                        <p>런스타 하이크 화이트<br><span class="span1">115,000원</span>103,500원<span class="span2">10%</span></p>
+                    </div>
+		            <div id="box2">
+                        <img src="converse_images/3RUNSTARHIKE/img3.jpg" alt="img"
+                        onmouseover="this.src='converse_images/3RUNSTARHIKE/img4.jpg'" 
+                        onmouseout="this.src='converse_images/3RUNSTARHIKE/img3.jpg'">
+                        <p>런스타 하이크 블랙<br><span class="span1">115,000원</span>103,500원<sapn class="span2">10%</sapn></p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+		            <div id="box3">
+                        <img src="converse_images/3RUNSTARHIKE/img5.jpg" alt="img"
+                        onmouseover="this.src='converse_images/3RUNSTARHIKE/img6.jpg'" 
+                        onmouseout="this.src='converse_images/3RUNSTARHIKE/img5.jpg'">
+                        <p>런스타 하이크 OX 블랙<br><span class="span1">109,000원</span>98,100원<sapn class="span2">10%</sapn></p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+		            <div id="box4">
+                        <img src="converse_images/3RUNSTARHIKE/img7.jpg" alt="img"
+                        onmouseover="this.src='converse_images/3RUNSTARHIKE/img8.jpg'" 
+                        onmouseout="this.src='converse_images/3RUNSTARHIKE/img7.jpg'">
+                        <p>런스타 하이크 OX 화이트<br><span class="span1">109,000원</span>98,100원<sapn class="span2">10%</sapn></p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+	            </div>
+            </div>
+            <div class="more"><img src="converse_images/1STEADY/more.jpg" alt="more" class="morebtn"></div>
+            </div>
+        </article>
+
+        <article class="article7" id="article7">
+            <div class="anchorTab">
+                <div class="tabone">
+                    <ul class="tabone_ul">
+                        <li><a href="#article4"><img src="converse_images/2CHUCK70/allstar.jpg" alt="btn"></a></li>
+                        <li><a href="#article5"><img src="converse_images/3RUNSTARHIKE/chuck70.jpg" alt="btn"></a></li>
+                        <li><a href="#article6"><img src="converse_images/4MOVE/hike.jpg" alt="btn"></a></li>
+                        <li><a href="#article7"><img src="converse_images/4MOVE/move.jpg" alt="btn"></a></li>
+                        <li><a href="#article8"><img src="converse_images/1STEADY/lift.jpg" alt="btn"></a></li>
+                    </ul>
+                </div>
+                <div class="tabtwo">
+                    <ul class="tabtwo_ul">
+                        <li><a href="#article9"><img src="converse_images/1STEADY/mule.jpg" alt="btn"></a></li>
+                        <li><a href="#article10"><img src="converse_images/1STEADY/com_collection.jpg" alt="btn"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="explanation">
+                <img src="converse_images/4MOVE/MOVE_ex.jpg" alt="explanation">
+            </div>
+
+            <div class="wrapper">
+                <div class="wrapper_left">
+                    <img src="converse_images/4MOVE/4model.jpg" alt="woman">
+                </div>
+                <div class="wrapper_right">
+                    <div id="box1">
+                        <img src="converse_images/4MOVE/img1.jpg" alt="img"
+                        onmouseover="this.src='converse_images/4MOVE/img2.jpg'" 
+                        onmouseout="this.src='converse_images/4MOVE/img1.jpg'">
+                        <p>척테일러 올스타 무브 블랙<br><span class="span1">89,000원</span>80,100원<span class="span2">10%</span></p>
+                    </div>
+		            <div id="box2">
+                        <img src="converse_images/4MOVE/img3.jpg" alt="img"
+                        onmouseover="this.src='converse_images/4MOVE/img4.jpg'" 
+                        onmouseout="this.src='converse_images/4MOVE/img3.jpg'">
+                        <p>척테일러 올스타 무브 화이트<br><span class="span1">89,000원</span>80,100원<sapn class="span2">10%</sapn></p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+		            <div id="box3">
+                        <img src="converse_images/4MOVE/img5.jpg" alt="img"
+                        onmouseover="this.src='converse_images/4MOVE/img6.jpg'" 
+                        onmouseout="this.src='converse_images/4MOVE/img5.jpg'">
+                        <p>척테일러 올스타 무브 블랙<br><span class="span1">85,000원</span>76,500원<sapn class="span2">10%</sapn></p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+		            <div id="box4">
+                        <img src="converse_images/4MOVE/img7.jpg" alt="img"
+                        onmouseover="this.src='converse_images/4MOVE/img8.jpg'" 
+                        onmouseout="this.src='converse_images/4MOVE/img7.jpg'">
+                        <p>척테일러 올스타 무브 화이트<br><span class="span1">85,000원</span>76,500원<sapn class="span2">10%</sapn></p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+	            </div>
+            </div>
+            <div class="more"><img src="converse_images/1STEADY/more.jpg" alt="more" class="morebtn"></div>
+            </div>
+        </article>
+
+        <article class="article8" id="article8">
+            <div class="anchorTab">
+                <div class="tabone">
+                    <ul class="tabone_ul">
+                        <li><a href="#article4"><img src="converse_images/2CHUCK70/allstar.jpg" alt="btn"></a></li>
+                        <li><a href="#article5"><img src="converse_images/3RUNSTARHIKE/chuck70.jpg" alt="btn"></a></li>
+                        <li><a href="#article6"><img src="converse_images/4MOVE/hike.jpg" alt="btn"></a></li>
+                        <li><a href="#article7"><img src="converse_images/1STEADY/move.jpg" alt="btn"></a></li>
+                        <li><a href="#article8"><img src="converse_images/5LIFT/lift.jpg" alt="btn"></a></li>
+                    </ul>
+                </div>
+                <div class="tabtwo">
+                    <ul class="tabtwo_ul">
+                        <li><a href="#article9"><img src="converse_images/1STEADY/mule.jpg" alt="btn"></a></li>
+                        <li><a href="#article10"><img src="converse_images/1STEADY/com_collection.jpg" alt="btn"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="explanation">
+                <img src="converse_images/5LIFT/LIFT_ex.jpg" alt="explanation">
+            </div>
+
+            <div class="wrapper">
+                <div class="wrapper_left">
+                    <img src="converse_images/5LIFT/5model.jpg" alt="woman">
+                </div>
+                <div class="wrapper_right">
+                    <div id="box1">
+                        <img src="converse_images/5LIFT/img1.jpg" alt="img"
+                        onmouseover="this.src='converse_images/5LIFT/img2.jpg'" 
+                        onmouseout="this.src='converse_images/5LIFT/img1.jpg'">
+                        <p>척테일러 올스타 리프트 캔버스 블랙<br><span class="span1">79,000원</span>71,100원<span class="span2">10%</span></p>
+                    </div>
+		            <div id="box2">
+                        <img src="converse_images/5LIFT/img3.jpg" alt="img"
+                        onmouseover="this.src='converse_images/5LIFT/img4.jpg'" 
+                        onmouseout="this.src='converse_images/5LIFT/img3.jpg'">
+                        <p>척테일러 올스타 리프트 캔버스 화이트<br><span class="span1">79,000원</span>71,100원<sapn class="span2">10%</sapn></p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+		            <div id="box3">
+                        <img src="converse_images/5LIFT/img5.jpg" alt="img"
+                        onmouseover="this.src='converse_images/5LIFT/img6.jpg'" 
+                        onmouseout="this.src='converse_images/5LIFT/img5.jpg'">
+                        <p>척테일러 올스타 리프트 캔버스 블랙<br><span class="span1">85,000원</span>76,500원<sapn class="span2">10%</sapn></p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+		            <div id="box4">
+                        <img src="converse_images/5LIFT/img7.jpg" alt="img"
+                        onmouseover="this.src='converse_images/5LIFT/img8.jpg'" 
+                        onmouseout="this.src='converse_images/5LIFT/img7.jpg'">
+                        <p>척테일러 올스타 리프트 캔버스 화이트<br><span class="span1">85,000원</span>76,500원<sapn class="span2">10%</sapn></p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+	            </div>
+            </div>
+            <div class="more"><img src="converse_images/1STEADY/more.jpg" alt="more" class="morebtn"></div>
+            </div>
+        </article>
+
+        <article class="article9" id="article9">
+            <div class="anchorTab">
+                <div class="tabone">
+                    <ul class="tabone_ul">
+                        <li><a href="#article4"><img src="converse_images/2CHUCK70/allstar.jpg" alt="btn"></a></li>
+                        <li><a href="#article5"><img src="converse_images/3RUNSTARHIKE/chuck70.jpg" alt="btn"></a></li>
+                        <li><a href="#article6"><img src="converse_images/4MOVE/hike.jpg" alt="btn"></a></li>
+                        <li><a href="#article7"><img src="converse_images/1STEADY/move.jpg" alt="btn"></a></li>
+                        <li><a href="#article8"><img src="converse_images/1STEADY/lift.jpg" alt="btn"></a></li>
+                    </ul>
+                </div>
+                <div class="tabtwo">
+                    <ul class="tabtwo_ul">
+                        <li><a href="#article9"><img src="converse_images/6MULE/mule.jpg" alt="btn"></a></li>
+                        <li><a href="#article10"><img src="converse_images/1STEADY/com_collection.jpg" alt="btn"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="explanation">
+                <img src="converse_images/6MULE/mule_ex.jpg" alt="explanation">
+            </div>
+
+            <div class="wrapper">
+                <div class="wrapper_left">
+                    <img src="converse_images/6MULE/6model.jpg" alt="woman">
+                </div>
+                <div class="wrapper_right">
+                    <div id="box1">
+                        <img src="converse_images/6MULE/img1.jpg" alt="img"
+                        onmouseover="this.src='converse_images/6MULE/img2.jpg'" 
+                        onmouseout="this.src='converse_images/6MULE/img1.jpg'">
+                        <p>척 70 뮬 파운데이션 블랙<br><span class="span1">85,000원</span>68,000원<span class="span2">10%</span></p>
+                    </div>
+		            <div id="box2">
+                        <img src="converse_images/6MULE/img3.jpg" alt="img"
+                        onmouseover="this.src='converse_images/6MULE/img4.jpg'" 
+                        onmouseout="this.src='converse_images/6MULE/img3.jpg'">
+                        <p>척 70 뮬 파운데이션 에그렛<br><span class="span1">85,000원</span>68,000원<sapn class="span2">10%</sapn></p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+		            <div id="box3">
+                        <img src="converse_images/6MULE/img5.jpg" alt="img"
+                        onmouseover="this.src='converse_images/6MULE/img6.jpg'" 
+                        onmouseout="this.src='converse_images/6MULE/img5.jpg'">
+                        <p>척테일러 올스타 데인티 뮬 블랙<br><span class="span1">69,000원</span>48,300원<sapn class="span2">10%</sapn></p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+		            <div id="box4">
+                        <img src="converse_images/6MULE/img7.jpg" alt="img"
+                        onmouseover="this.src='converse_images/6MULE/img8.jpg'" 
+                        onmouseout="this.src='converse_images/6MULE/img7.jpg'">
+                        <p>척테일러 올스타 데인티 뮬 화이트<br><span class="span1">69,000원</span>48,300원<sapn class="span2">10%</sapn></p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+	            </div>
+            </div>
+            <div class="more"><img src="converse_images/1STEADY/more.jpg" alt="more" class="morebtn"></div>
+            </div>
+        </article>
+
+        <article class="article10" id="article10">
+            <div class="anchorTab">
+                <div class="tabone">
+                    <ul class="tabone_ul">
+                        <li><a href="#article4"><img src="converse_images/2CHUCK70/allstar.jpg" alt="btn"></a></li>
+                        <li><a href="#article5"><img src="converse_images/3RUNSTARHIKE/chuck70.jpg" alt="btn"></a></li>
+                        <li><a href="#article6"><img src="converse_images/4MOVE/hike.jpg" alt="btn"></a></li>
+                        <li><a href="#article7"><img src="converse_images/1STEADY/move.jpg" alt="btn"></a></li>
+                        <li><a href="#article8"><img src="converse_images/1STEADY/lift.jpg" alt="btn"></a></li>
+                    </ul>
+                </div>
+                <div class="tabtwo">
+                    <ul class="tabtwo_ul">
+                        <li><a href="#article9"><img src="converse_images/1STEADY/mule.jpg" alt="btn"></a></li>
+                        <li><a href="#article10"><img src="converse_images/7COMMEDES/com_collection.jpg" alt="btn"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="explanation">
+                <img src="converse_images/7COMMEDES/com_ex.jpg" alt="explanation">
+            </div>
+
+            <div class="wrapper">
+                <div class="wrapper_left">
+                    <img src="converse_images/7COMMEDES/7main.jpg" alt="woman">
+                </div>
+                <div class="wrapper_right">
+                    <div id="box1">
+                        <img src="converse_images/7COMMEDES/img1.jpg" alt="img"
+                        onmouseover="this.src='converse_images/7COMMEDES/img2.jpg'" 
+                        onmouseout="this.src='converse_images/7COMMEDES/img1.jpg'">
+                        <p>컨버스 X 꼼데가르송 플레이 척70 블랙<br>198,000원</p>
+                    </div>
+		            <div id="box2">
+                        <img src="converse_images/7COMMEDES/img3.jpg" alt="img"
+                        onmouseover="this.src='converse_images/7COMMEDES/img4.jpg'" 
+                        onmouseout="this.src='converse_images/7COMMEDES/img3.jpg'">
+                        <p>컨버스 X 꼼데가르송 플레이 척70 프리스틴<br>198,000원</p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+		            <div id="box3">
+                        <img src="converse_images/7COMMEDES/img5.jpg" alt="img"
+                        onmouseover="this.src='converse_images/7COMMEDES/img6.jpg'" 
+                        onmouseout="this.src='converse_images/7COMMEDES/img5.jpg'">
+                        <p>컨버스 X 꼼데가르송 플레이 척70 블랙<br>198,000원</p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+		            <div id="box4">
+                        <img src="converse_images/7COMMEDES/img7.jpg" alt="img"
+                        onmouseover="this.src='converse_images/7COMMEDES/img8.jpg'" 
+                        onmouseout="this.src='converse_images/7COMMEDES/img7.jpg'">
+                        <p>컨버스 X 꼼데가르송 플레이 척70 프리스틴<br>198,000원</p>
+                        <p class="best"><img src="converse_images/1STEADY/bestseller_txt.png" alt="best"></p>
+                    </div>
+	            </div>
+            </div>
+            <div class="more"><img src="converse_images/1STEADY/more.jpg" alt="more" class="morebtn"></div>
+            </div>
+        </article>
+    </div>
+    
+    
+    <footer>
+
+        <div class="ft_sec1">
+            <div class="ft_box">
+                <div class="ft_text">FOLLOW US</div>
+                <div class="sns_box">
+                <div class="sns_icon"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="sns_icon"><i class="fa-brands fa-instagram"></i></div>
+                </div>
+            </div>
+            <div class="ft_box">
+                <div class="ft_text">SUPPORT</div>
+                <div class="menu">
+                    <a href="#">고객지원센터</a>
+                    <a href="#">1:1 문의</a>
+                    <a href="#">주문/배송 조회</a>
+                </div>
+            </div>
+            <div class="ft_box">
+                <div class="ft_text">INFORMATION</div>
+                <div class="menu">
+                    <a href="#">컨버스에 대하여</a>
+                    <a href="#">회원가입</a>
+                    <a href="#">매장안내</a>
+                    <a href="#">공지사항</a>
+                </div>
+            </div>
+            <div class="ft_box">
+                <div class="ft_text">POLICY</div>
+                <div class="menu">
+                    <a href="#">이용약관</a>
+                    <a href="#">개인정보처리방침</a>
+                </div>
+            </div>
+            <div class="ft_box">
+                <div class="ft_text">FAMILY SITES</div>
+                <div class="menu">
+                    <a href="#">NIKE</a>
+                    <a href="#">Jordan</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ft_sec2">
+            <div class="ft_left">
+                <a href="#">(유)컨버스코리아</a><span>ㅣ대표 이명재</span><span>ㅣ개인정보책임 이명재</span><span>ㅣ사업자등록번호 220-88-74818</span><br>
+                <span>통신판매업 신고번호 제2016-서울강남-00478호 ㅣ</span><a href="#">통신판매업자 신원정보 확인</a><br>
+                <span>주소 서울특별시 강남구 테헤란로 152 (역삼동) 강남파이낸스센터 32층</span><br>
+                <span>고객상담팀:080-987-0182(상담시간 월-금 : AM 09:00 - PM 05:30, 주말/공휴일 휴무) ㅣ</span>
+                <a href="#">conversekorea@converse.co.kr(24시간 접수 가능)</a><br><br><br>
+                <span>2020 Converse Korea LLC.All Rights Reserved.</span>
+            </div>
+            <div class="ft_right">
+                <div class=""></div>
+                <div>
+                    <span>KG 이니시스 구매안전 서비스</span><br>
+                    <sapn>고객님은 안전거래를 위해 현금 등으로 결제시</sapn><br>
+                        <span>저희 쇼핑몰이 가입한 PG에스크로 구매안전서비스를 이용하실 수 있습니다.</sapn><br>
+                    <span>결제대금예치업 등록번호 02-006-00013</span><br>
+                    <a href="#">서비스 가입사실 확인</a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <aside>
+        <div class="kakao">
+            <a href="#"><img src="converse_images/floating_banner_pc_02.png" alt="kakao"></a>
+        </div>
+    </aside>
+    
+</body>
+</html>
